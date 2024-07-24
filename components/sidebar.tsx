@@ -21,7 +21,8 @@ const routes=[
         label: "Dashboard",
         icon: LayoutDashboard,
         href:"/dashboard",
-        color:"text-white-500",
+        color:"text-purple-500",
+        bgColor:"text-purple-500/10"
    },
    {
     label: "Conversation",
