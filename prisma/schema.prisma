@@ -1,0 +1,21 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// prisma/schema.prisma
+datasource db {
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+  // uncomment next line if you use Prisma <5.10
+  // directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model userApiLimit {
+  id String @id @default(cuid())
+  userId String @unique
+  count Int @default(0)
+  createAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+ 
