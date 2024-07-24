@@ -31,13 +31,13 @@ const routes=[
     color:"text-violet-500",
     bgColor:"bg-violet-500/10"
    },
-   {
-    label: "Image Generation",
-    icon: ImageIcon,
-    href:"/image",
-    color:"text-pink-700",
-    bgColor:"bg-pink-700/10"
-   },
+//    {
+//     label: "Image Generation",
+//     icon: ImageIcon,
+//     href:"/image",
+//     color:"text-pink-700",
+//     bgColor:"bg-pink-700/10"
+//    },
    {
     label: "Video Generation",
     icon: VideoIcon,
