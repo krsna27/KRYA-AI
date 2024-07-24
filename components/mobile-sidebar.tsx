@@ -6,6 +6,8 @@ import { Sheet, SheetTrigger,SheetContent } from "@/components/ui/sheet";
 import Sidebar from "@/components/sidebar";
 import { useEffect, useState } from "react";
 
+
+
 const Mobilesidebar = () => {
     const [isMounted,setIsMounted] = useState(false);
     useEffect(()=>{
@@ -14,6 +16,7 @@ const Mobilesidebar = () => {
     if(!isMounted){
         return null;
     }
+
     return (
         <Sheet>
             <SheetTrigger>
@@ -22,7 +25,8 @@ const Mobilesidebar = () => {
                 </Button>
             </SheetTrigger>
             <SheetContent side="left" className="p-0">
-                <Sidebar/>
+        
+        <Sidebar/>
             </SheetContent>
         </Sheet>
     )
