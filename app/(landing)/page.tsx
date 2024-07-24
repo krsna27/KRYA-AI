@@ -8,7 +8,6 @@ import Link from "next/link";
 const LandingPage = () => {
   return (
     <div className="h-full">
-        <br />
         <LandingNavbar /><br /><br /><br /><br /><br />
         <LandingHero /><br /><br /><br /><br /><br /><br />
         <LandingContent />

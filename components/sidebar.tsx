@@ -27,37 +27,37 @@ const routes=[
     label: "Conversation",
     icon: MessageSquare,
     href:"/conversation",
-    color:"text-white-500",
+    color:"text-violet-500",
+    bgColor:"bg-violet-500/10"
    },
    {
     label: "Image Generation",
     icon: ImageIcon,
     href:"/image",
-    color:"text-white-500",
+    color:"text-pink-700",
+    bgColor:"bg-pink-700/10"
    },
    {
     label: "Video Generation",
     icon: VideoIcon,
     href:"/video",
-    color:"text-white-500",
+    color:"text-orange-700",
+    bgColor:"bg-orange-700/10"
    },
    {
     label: "Music Generation",
     icon: Music,
     href:"/music",
-    color:"text-white-500",
+    color:"text-emerald-500",
+    bgColor:"bg-emerald-500/10"
    },
    {
     label: "Code Generation",
     icon: Code,
     href:"/code",
-    color:"text-white-500",
-   },
-   {
-    label: "Settings",
-    icon: Settings,
-    href:"/settings",
-   },
+    color:"text-green-700",
+    bgColor:"bg-green-700/10"
+   }
 ];
 
 
